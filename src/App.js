@@ -11,7 +11,7 @@ function App() {
   const [error, setError] = useState('');
   const [city, setCity] = useState(''||'Brentwood');
   //const city = 'Brentwood';
-  const apiKey = 'c75f89dee2df592ecb5f3386294f4add';
+  const apiKey = process.env.API_CODE;
   const [clickText, setClickText] = useState(false);
   
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
