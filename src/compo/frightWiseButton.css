@@ -1,0 +1,55 @@
+
+
+.custom-button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .custom-button:disabled {
+    background-color: #dcdcdc;
+    cursor: not-allowed;
+  }
+  
+  .custom-button.small {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  .custom-button.medium {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .custom-button.large {
+    padding: 15px 30px;
+    font-size: 20px;
+  }
+  
+  /* Colors */
+  .custom-button.blue {
+    background-color: #008000;
+    color: white;
+  }
+  
+  .custom-button.blue:hover {
+    background-color: #00A000;
+  }
+  
+  .custom-button.green {
+    background-color: #006000;
+    color: white;
+  }
+  
+  
+ 
+  
